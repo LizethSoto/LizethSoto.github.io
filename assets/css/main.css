@@ -686,7 +686,7 @@ header {
         font-weight: 700; } }
     header h1 span {
       display: inline-block;
-      background-color:rgba(255, 255, 255,0.2)
+      background-color:rgba(230, 230, 230,0.2)
       padding: 0.2em 0.5em;
       border: rgba(0, 0, 0, 0.8) solid 10px; }
       @media only screen and (min-width: 220px) {
