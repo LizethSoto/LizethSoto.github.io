@@ -722,7 +722,7 @@ footer {
       display: inline-block;
       margin-right: 30px; }
       footer .lockup a:hover {
-        color: black; }
+        color: white; }
 
 @media only screen and (min-width: 220px) {
   .about-lock {
