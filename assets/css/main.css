@@ -599,7 +599,7 @@ h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_sm
     height: 70px;
     width: 70px;
     background: url(../img/ls.png) center center;
-    background-size: 70px 47px;
+    background-size: 47px 47px;
     background-repeat: no-repeat;
     position: fixed;
     left: 5px;
