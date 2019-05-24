@@ -596,8 +596,8 @@ h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_sm
 
 @media only screen and (min-width: 1070px) {
   .logo {
-    height: 70px;
-    width: 70px;
+    height: 47px;
+    width: 47px;
     background: url(../img/ls.png) center center;
     background-size: 47px 47px;
     background-repeat: no-repeat;
@@ -626,12 +626,12 @@ h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_sm
   .arrow {
     display: none; }
   .logo {
-    height: 90px;
-    width: 90px;
-    background: url(../img/ls.png) center center;
-    width: 88px;
     height: 47px;
-    background-size: 88px 47px;
+    width: 47px;
+    background: url(../img/ls.PNG) center center;
+    width: 47px;
+    height: 47px;
+    background-size: 47px 47px;
     background-repeat: no-repeat;
     float: left;
     margin: 30px 0 0 30px; } }
