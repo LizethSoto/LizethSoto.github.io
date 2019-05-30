@@ -598,7 +598,7 @@ h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_sm
   .logo {
     height: 47px;
     width: 47px;
-    background: url(../img/ls.png) center center;
+    background: url(../img/ls.jpg) center center;
     background-size: 47px 47px;
     background-repeat: no-repeat;
     position: fixed;
@@ -628,7 +628,7 @@ h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_sm
   .logo {
     height: 47px;
     width: 47px;
-    background: url(../img/ls.PNG) center center;
+    background: url(../img/ls.jpg) center center;
     width: 47px;
     height: 47px;
     background-size: 47px 47px;
