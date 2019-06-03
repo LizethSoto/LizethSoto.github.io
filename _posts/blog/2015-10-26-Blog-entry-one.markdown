@@ -4,10 +4,7 @@ title:  "Entrenando un detector de objetos en Tensorflow"
 date:   2019-03-14 10:37:00
 categories: blog
 ---
-<h1 style="font-size: 50px; font-family: Verdana; text-align: center;">Disclaimer;</h1>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<h1 style="text-align: center;">Disclaimer</h1>
+<h1 style="font-size: 30px; font-family: Verdana; text-align: center;">Disclaimer</h1>
 <h2>Cuando NO intentar reproducir este proyecto:</h2>
 <ul>
 <li>Si tienes un l&iacute;mite de tiempo que no deja espacio para "oopsies".</li>
