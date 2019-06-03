@@ -25,4 +25,4 @@ Este blog fue realizado para la clase de Redes Neuronales impartida en el semest
 # Probar los resultados
 # Convertir a tflite
 # Pasar a Android app
-![S.O.S](assets/img/app1.jpg)
+![S.O.S](../../../assets/img/app1.jpg)
