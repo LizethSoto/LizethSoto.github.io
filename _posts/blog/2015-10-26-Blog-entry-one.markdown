@@ -4,7 +4,8 @@ title:  "Entrenando un detector de objetos en Tensorflow"
 date:   2019-03-14 10:37:00
 categories: blog
 ---
-<h1>Disclaimer</h1>
+<h1 style="font-size: 26px">Disclaimer</h1>
+
 ## Cuando NO intentar reproducir este proyecto:
  - Si tienes un límite de tiempo que no deja espacio para "oopsies".
  - Si usas windows y estas convencido de que de todas maneras debería funcionar.
