@@ -44,7 +44,7 @@ categories: blog
 <p>En uno de los miles tutoriales que segu&iacute; (todos los links estar&aacute;n al final del post) proporcionaba un script sencillo para hacer un resize de las imagenes. Lo encontrar&aacute;s en el proyecto de github.</p>
 <h1 style="font-size: 30px; font-family: Verdana; text-align: center;">&nbsp;</h1>
 <h1 style="font-size: 30px; font-family: Verdana; text-align: center;">Preparar las etiquetas</h1>
-<p>La parte m&aacute;s divertida (no) de todo el proyecto, dibujar los recuadros en absolutamente todas las imagenes que utilizaras. Para eso, lo m&aacute;s facil es descargar&nbsp;<a href="https://github.com/tzutalin/labelImg">Labellmg.</a> Es muy intuitivo, b&aacute;sicamente arrastras el "bouding box" y lo clasificas para todas las clases que aparezcan en la imagen.</p>
+<p>La parte m&aacute;s divertida (no) de todo el proyecto, dibujar los recuadros en absolutamente todas las imagenes que utilizaras. Para eso, lo m&aacute;s facil es descargar&nbsp;<a href="https://github.com/tzutalin/labelImg" style="color: DeepSkyBlue ;">Labellmg.</a> Es muy intuitivo, b&aacute;sicamente arrastras el "bouding box" y lo clasificas para todas las clases que aparezcan en la imagen.</p>
 <h1 style="font-size: 30px; font-family: Verdana; text-align: center;">&nbsp;</h1>
 <h1 style="font-size: 30px; font-family: Verdana; text-align: center;">Crear el archivo CSV</h1>
 <p>Este paso crea un archivo CSV que contiene la informaci&oacute;n de las imagenes(tama&ntilde;o, localizaci&oacute;n del "bounding box" etc.).&nbsp;</p>
