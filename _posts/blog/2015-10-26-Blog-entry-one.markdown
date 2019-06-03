@@ -21,9 +21,8 @@ categories: blog
 <p>Una red convolucional consiste en los siguientes tipos de capas.</p>
 <p>INPUT: mantendr&aacute; los valores de p&iacute;xeles sin procesar de la imagen, en este caso una imagen con tres canales de color R, G, B.<br />CONV: Calcular&aacute; la salida de las neuronas que est&aacute;n conectadas a las regiones locales en la entrada, cada una de las cuales calcula un producto de puntos entre sus pesos y una peque&ntilde;a regi&oacute;n a la que est&aacute;n conectadas en el volumen de entrada. <br />RELU: Elimina los elementos negativos, dejando solo los positivos. De esta manera los cambios de color ser&aacute;n menos graduales.<br />POOL: realizar&aacute; una operaci&oacute;n de reducci&oacute;n de resoluci&oacute;n a lo largo de las dimensiones espaciales.<br />FC:Calcular&aacute; los puntajes de cada clase.</p>
 <p>Tomando eso en cuenta, la arquitectura de la SSD Mobilenet es la siguiente:</p>
-<!--p><img src="/assets/img/red.png" alt="red" /></p-->
+<p><img src="https://raw.githubusercontent.com/LizethSoto/LizethSoto.github.io/master/assets/img/red.png" alt="red" /></p>
 
-![](https://raw.githubusercontent.com/LizethSoto/LizethSoto.github.io/master/assets/img/red.png)
 
 <h1 style="font-size: 40px; font-family: Verdana; text-align: center;">Comenzar el entrenamiento</h1>
 <p>Lo primero que debes hacer es descargar&nbsp;<a href="https://github.com/tensorflow/models/tree/master/research/object_detection">esto</a> del github de Tensorflow. Este proyecto fue realizado en mayo de 2019 y constantemente se le hacen cambios. Es muy probable que dentro de no mucho tiempo ya no sirva, me he topado con ese problema para diferentes cosas haciendo este proyecto. Unas partes necesitan una versi&oacute;n, otras las "rompieron" con la actualizaci&oacute;n etc.&nbsp;</p>
