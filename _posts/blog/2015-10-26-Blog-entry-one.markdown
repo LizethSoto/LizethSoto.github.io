@@ -27,7 +27,10 @@ categories: blog
 <div><br />Te recomiendo que tengas una saludable cantidad de im&aacute;genes donde se vea claramente el objeto que quieres detectar, as&iacute; como im&aacute;genes donde haya&nbsp;<span class="googie_link">distractores</span>&nbsp;en el fondo. Repite para todas tus clases.</div>
 <div>&nbsp;</div>
 <div>En mi caso entren&eacute; para que reconociera tres clases de quasi-insectos: chimera (de el juego resistance para PS3), randall (de la pel&iacute;cula Monsters Inc.) y demogorgon (de la serie de Netflix Stranger Things).</div>
+<div>&nbsp;</div>
+<div>Les comparto una imagen que captura el momento exacto donde se hizo un atentado contra mi proyecto.</div>
 </div>
+<p><img src="../../assets/img/DSC_0554.JPG" alt="chamuk1" /></p>
 <h1 style="font-size: 30px; font-family: Verdana; text-align: center;">Preparar los datos</h1>
 <p>En uno de los miles tutoriales que segu&iacute; (todos los links estar&aacute;n al final del post) proporcionaba un script sencillo para hacer un resize de las imagenes. Lo encontrar&aacute;s en el proyecto de github.</p>
 <h1 style="font-size: 30px; font-family: Verdana; text-align: center;">Preparar las etiquetas</h1>
@@ -42,9 +45,9 @@ categories: blog
 <p>Fuera de eso, el entrenamiento es muy "straight forward". Te recomiendo seguir&nbsp;<a href="https://medium.com/datadriveninvestor/training-object-detection-for-windows-with-tensorflow-505ae7d19516">este</a>&nbsp;(desde que fue creado cambiaron la estructura de las carpetas, pero a&uacute;n puedes encontrar el archivo "train.py"&nbsp; a una carpeta llamada "legacy") tutorial para la parte del entrenamiento hasta donde utiliza el archivo "export_inference_graph.py"</p>
 <h1 style="font-size: 40px; font-family: Verdana; text-align: center;">Probar los resultados</h1>
 <p>Para probar los resultados puedes utilizar dos archivos muy &uacute;tiles sacados de&nbsp;<a href="https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10">este</a>&nbsp;tutorial llamados "Object_detection_image.py" y "Object_detection_video.py". S&oacute;lamente tienes que modificar el path a tu modelo congelado, tu labelmap y tu imagen en el caso del primer archivo. Estos son mis resultados.</p>
-<p><img src="../../assets/img/cap1.jpg" alt="cap1" /></p>
-<p><img src="../../assets/img/cap2.jpg" alt="cap2" /></p>
-<p><img src="../../assets/img/cap3.jpg" alt="cap3" /></p>
+<p><img src="../../assets/img/cap1.png" alt="cap1" /></p>
+<p><img src="../../assets/img/cap2.png" alt="cap2" /></p>
+<p><img src="../../assets/img/cap3.png" alt="cap3" /></p>
 <h1 style="font-size: 40px; font-family: Verdana; text-align: center;">Convertir a tflite</h1>
 <p>&nbsp;</p>
 <h1 style="font-size: 40px; font-family: Verdana; text-align: center;">Pasar a Android app</h1>
