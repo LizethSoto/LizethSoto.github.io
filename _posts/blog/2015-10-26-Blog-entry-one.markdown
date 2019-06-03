@@ -12,7 +12,7 @@ categories: blog
  - Si usas windows.
  - Si usas macOS Mojave y no estas listo para una aventura.
 # Introducción 
-Este blog fue realizado para la clase de Redes Neuronales impartida en el semestre 2019-1 por el profesor Julio Waissman Vilanova en la Universidad de Sonora. El proyecto consistía en utilizar una red convolucional para resolver un problema en concreto. Yo elegí la detección de objetos.
+Este blog fue realizado para la clase de Redes Neuronales impartida en el semestre 2019-1 por el profesor Julio Waissman Vilanova en la Universidad de Sonora. El proyecto consistía en utilizar una red convolucional para resolver un problema en concreto. Yo elegí la detección de objetos y reducción del modelo para uso en dispositivos móviles.
 # Arquitecturas utilizadas
 ## Faster RCNN
 ## SSD Mobilenet
@@ -21,4 +21,8 @@ Este blog fue realizado para la clase de Redes Neuronales impartida en el semest
 ## Preparar los datos
 ## Preparar las etiquetas
 ## Crear el archivo XML
-## 
+## Entrenar
+# Probar los resultados
+# Convertir a tflite
+# Pasar a Android app
+![S.O.S](app1.jpg)
