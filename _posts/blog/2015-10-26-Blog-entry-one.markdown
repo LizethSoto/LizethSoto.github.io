@@ -52,15 +52,19 @@ categories: blog
 <h1 style="font-size: 30px; font-family: Verdana; text-align: center;">Entrenar</h1>
 <p>Para entrenar tenemos que descargar un modelo de&nbsp;<a href="https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md">aqu&iacute;</a>. Yo utilic&eacute; inicialmente el modelo rfcn_resnet101_coco. Lo configur&eacute; y entrene, con muy buenos resultados, para darme cuenta de que la arquitectura faster-rcnn no es compatible con el convertidor a tflite, que es el tipo de modelo que se puede utilizar en dispositivos m&oacute;viles. No lo v&iacute; en ning&uacute;n lado (hasta que me dio el error y busque eso espec&iacute;ficamente), puede ser que no buscara correctamente pero pens&eacute; que ser&iacute;a bueno mencionarlo.&nbsp;</p>
 <p>Despu&eacute;s de mi fracaso, volv&iacute; a comenzar el proceso con el modelo ssd_mobilenet_v1_coco, con muy buenos resultados y mucho mejores tiempos.</p>
-<p>Si mi disclaimer no te detuvo de intentar hacer este proyecto en windows, perm&iacute;teme contarte la historia de un modelito que no quer&iacute;a ser entrenado; error tras error, reinstalando Tensorflow de todas las maneras imaginables (siguiendo consejos de internet), probando con multiples combinaciones de versiones de Tensorflow-Cuda-etc, las cuales todas se supone deber&iacute;an funcionar. Nada funciono. &iquest;La soluci&oacute;n? Cambiarme a una Mac. Haciendo exactamente lo mismo que hice en windows funcion&oacute; a la primera.</p>
+<p>Si mi disclaimer no te detuvo de intentar hacer este proyecto en windows, perm&iacute;teme contarte la historia de un modelito que no quer&iacute;a ser entrenado; error tras error, reinstalando Tensorflow de todas las maneras imaginables (siguiendo consejos de internet), probando con multiples combinaciones de versiones de Tensorflow-Cuda-etc, las cuales todas se supone deber&iacute;an funcionar. Nada funcion&oacute;. &iquest;La soluci&oacute;n? Cambiarme a una Mac. Haciendo exactamente lo mismo que hice en windows; Resultado: funcion&oacute; a la primera.</p>
 <p>Me parece que la mejor opci&oacute;n seg&uacute;n mi basta experiencia en el tema (google) es Linux, pero Mac es buen segundo lugar.</p>
 <p>Fuera de eso, el entrenamiento es muy "straight forward". Te recomiendo seguir&nbsp;<a href="https://medium.com/datadriveninvestor/training-object-detection-for-windows-with-tensorflow-505ae7d19516">este</a>&nbsp;(desde que fue creado cambiaron la estructura de las carpetas, pero a&uacute;n puedes encontrar el archivo "train.py"&nbsp; a una carpeta llamada "legacy") tutorial para la parte del entrenamiento hasta donde utiliza el archivo "export_inference_graph.py"</p>
 <h1 style="font-size: 40px; font-family: Verdana; text-align: center;">&nbsp;</h1>
 <h1 style="font-size: 40px; font-family: Verdana; text-align: center;">Probar los resultados</h1>
 <p>Para probar los resultados puedes utilizar dos archivos muy &uacute;tiles sacados de&nbsp;<a href="https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10">este</a>&nbsp;tutorial llamados "Object_detection_image.py" y "Object_detection_video.py". S&oacute;lamente tienes que modificar el path a tu modelo congelado, tu labelmap y tu imagen en el caso del primer archivo. Estos son mis resultados.</p>
-<p><img src="../../assets/img/cap1.png" alt="cap1" /></p>
-<p><img src="../../assets/img/cap2.png" alt="cap2" /></p>
-<p><img src="../../assets/img/cap3.png" alt="cap3" /></p>
+
+<p><img src="https://raw.githubusercontent.com/LizethSoto/LizethSoto.github.io/master/assets/img/cap1.png" alt="cap1" width="40%"/></p>
+
+<p><img src="https://raw.githubusercontent.com/LizethSoto/LizethSoto.github.io/master/assets/img/cap2.png" alt="cap2" width="40%"/></p>
+
+<p><img src="https://raw.githubusercontent.com/LizethSoto/LizethSoto.github.io/master/assets/img/cap3.png" alt="cap3" width="40%"/></p>
+
 <h1 style="font-size: 40px; font-family: Verdana; text-align: center;">&nbsp;</h1>
 <h1 style="font-size: 40px; font-family: Verdana; text-align: center;">Convertir a tflite</h1>
 <p>B&aacute;sicamente hasta aqui lleg&oacute; mi avance. Lo que segu&iacute;a era exportar el modelo como tflite sdd graph, con un archivo del mismo nombre, lo cual es bastante sencillo. La verdadera dificultad es transformar el modelo a tflite. Originalmente se utilizaba "TOCO", sin embargo esto ya esta descontinuado, de acuerdo con la p&aacute;gina oficial de tensorflow. Ahora lo que se debe utilizar es "TFliteConverter", sin embargo no hubo nada que yo pudiera hacer para lograr que funcionara.</p>
@@ -71,7 +75,8 @@ categories: blog
 <p>Cuando por fin logre utilizar, en uno de mis multiples intentos, el TFliteConverter, al pasar mi modelo al demo de detecci&oacute;n de objetos de tensorflow para Android, crashea al instante.&nbsp;</p>
 <p>Mi modelo funciona antes de pasarlo por el convertidor, y la aplicaci&oacute;n funciona antes de cambiar el modelo por el mio. Mi sospecha es que a pesar de obtener un archivo.tflite, no se crea de la manera correcta causando el crash.</p>
 <p>Es un tema que la verdad me llama mucho la atenci&oacute;n y seguir&eacute; intentando hacer que funcione. Eventualmente lo har&aacute;, ya sea porque descubr&iacute; el problema o porque pas&oacute; tanto tiempo que ya funcionan en armon&iacute;a todas las versiones de nuevo.</p>
-<p><img src="../../assets/img/app1.jpg" alt="mimers" /></p>
+<p><img src="https://raw.githubusercontent.com/LizethSoto/LizethSoto.github.io/master/assets/img/app1.jpg" alt="mimers" width="40%"/></p>
+
 <p>&nbsp;</p>
 <h1 style="font-size: 40px; font-family: Verdana; text-align: center;">Links</h1>
 <ul>
