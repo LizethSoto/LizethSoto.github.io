@@ -23,7 +23,7 @@ categories: blog
 <p>Tomando eso en cuenta, la arquitectura de la SSD Mobilenet es la siguiente:</p>
 <!--p><img src="/assets/img/red.png" alt="red" /></p-->
 
-![]("../..//assets/img/red.png" alt="red")
+![](../..//assets/img/red.png)
 
 <h1 style="font-size: 40px; font-family: Verdana; text-align: center;">Comenzar el entrenamiento</h1>
 <p>Lo primero que debes hacer es descargar&nbsp;<a href="https://github.com/tensorflow/models/tree/master/research/object_detection">esto</a> del github de Tensorflow. Este proyecto fue realizado en mayo de 2019 y constantemente se le hacen cambios. Es muy probable que dentro de no mucho tiempo ya no sirva, me he topado con ese problema para diferentes cosas haciendo este proyecto. Unas partes necesitan una versi&oacute;n, otras las "rompieron" con la actualizaci&oacute;n etc.&nbsp;</p>
